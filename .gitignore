@@ -1,0 +1,95 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.dylib
+*.egg
+*.egg-info/
+.eggs/
+*.pkl
+
+# Build / packaging
+build/
+dist/
+*.spec
+
+# ========================
+# Jupyter
+# ========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# ========================
+# Virtual envs
+# ========================
+.venv/
+venv/
+env/
+.env
+*.env
+
+# ========================
+# Logs & data (raw ignored; compressed kept)
+# ========================
+# Ignore raw logs and csv data
+*.log
+*.csv
+
+# But KEEP compressed/safe artifacts
+!*.gz
+!*.xz
+!*.zip
+
+# Project log folder (raw ignored, compressed kept)
+logs/
+!logs/*.gz
+!logs/*.xz
+!logs/*.zip
+# If you keep small metadata in logs/, allow it:
+!logs/README.md
+!logs/*.md
+
+# ========================
+# Models / checkpoints (binary, large)
+# ========================
+*.pth
+*.pt
+*.ckpt
+*.bin
+
+# If you enable Git LFS later, you can override specific files by un-ignoring them:
+# !models/*.pth
+# !best_model/*.pth
+
+# ========================
+# Results / outputs
+# ========================
+results/
+results_*/
+results_HDFS/
+!results/**/.gitkeep
+!results/**/README.md
+# If you want to keep small text summaries:
+# !results/**/*.txt
+# !results/**/*.md
+# !results/**/*.csv  # (only if tiny)
+
+# ========================
+# OS / Editor junk
+# ========================
+.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
+*.orig
+
+# Windows ADS streams copied from downloads
+*:Zone.Identifier
+
+# VS Code / PyCharm
+.vscode/
+.idea/
