@@ -16,12 +16,16 @@ git clone https://github.com/tw13023/AllLinLog.git
 cd AllLinLog
 ```
 
-### 2. Create and activate a virtual environment:
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
+### 2. Software Requirements:
+1. `torch==2.7.1+cu128`
+2. `numpy==2.3.1`
+3. `pandas==2.3.1`
+4. `scikit-learn==1.7.0`
+5. `tqdm==4.67.1`
+6. `tiktoken==0.9.0`
+7. `linformer==0.2.3`
+8. `psutil==7.0.0`
+9. `matplotlib==3.10.3`
 
 ### 3. Reconstructing Large LogsLarge Logs
 
