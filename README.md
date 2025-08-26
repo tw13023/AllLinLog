@@ -5,38 +5,41 @@ This repository contains the implementation of **AllLinLog**, a framework for ef
 The project explores the use of linear self-attention for large-scale log analysis, applied to datasets 
 such as **BGL** and **HDFS**.
 
-Before using this project, you can verify that the repository works correctly
-by following these steps:
+Before using this project, you can verify that the repository works correctly by following these steps:
+
+---
 
 ## Quick Start
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/tw13023/AllLinLog.git
 cd AllLinLog
+```
 
 ### 2. Create and activate a virtual environment:
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
-
+```
 
 ### 3. Reconstructing Large LogsLarge Logs
 
-The original logs are too large for GitHub.  
+The original logs are too large for GitHub.
 They have been compressed and split into smaller chunks.
 
 ### Reconstruct BGL.log
 ```bash
 cd /logs
 gunzip BGL.log.gz
+```
 
 ### Reconstruct HDFS.log
 ```bash
 cat logs/HDFS_part_*.gz | gunzip > HDFS.log
-
+```
 ### 4. Run the Jupyter Notebook
 
-allinlog_BGL_inMem_GPT4BPE.ipynb for BGL dataset
-allinlog_HDFS_inMEM_GPT4BPE.ipynb for HDFS dataset
+- `allinlog_BGL_inMem_GPT4BPE.ipynb` for **BGL** dataset
+- `allinlog_HDFS_inMEM_GPT4BPE.ipynb` for **HDFS** dataseat
 
