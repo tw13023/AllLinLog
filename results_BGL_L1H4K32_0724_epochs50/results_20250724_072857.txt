@@ -1,0 +1,1057 @@
+Experiment Parameters:
+log_file: ./logs/BGL.log
+windows_size: 10
+step_size: 10
+train_ratio: 0.7
+beta: 0.4
+batch_size: 8
+dropout: 0.5
+num_layers: 1
+num_heads: 4
+k: 32
+
+Total Parameters: 13445922
+Model Size: 51.29 MB
+Epoch 1/50
+Train Loss: 0.02610, Train Accuracy: 0.99312
+Val Loss: 0.02107, Val Accuracy: 0.99850
+Anomalous Precision: 0.99296, Anomalous Recall: 0.98872, Anomalous F1 Score: 0.99084
+Training time for one epoch: 12.70 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99899  0.99937  0.99918  65366.0
+Anomalous      0.99296  0.98872  0.99084   5853.0
+accuracy       0.99850  0.99850  0.99850      NaN
+macro avg      0.99598  0.99405  0.99501  71219.0
+weighted avg   0.99850  0.99850  0.99850  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+New best model saved as: best_model/best_model_20250724_072857.pth 
+
+Epoch 2/50
+Train Loss: 0.00355, Train Accuracy: 0.99906
+Val Loss: 0.02214, Val Accuracy: 0.99711
+Anomalous Precision: 0.97050, Anomalous Recall: 0.99505, Anomalous F1 Score: 0.98262
+Training time for one epoch: 12.56 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99956  0.99729  0.99842  65366.0
+Anomalous      0.97050  0.99505  0.98262   5853.0
+accuracy       0.99711  0.99711  0.99711      NaN
+macro avg      0.98503  0.99617  0.99052  71219.0
+weighted avg   0.99717  0.99711  0.99712  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 3/50
+Train Loss: 0.00232, Train Accuracy: 0.99941
+Val Loss: 0.01682, Val Accuracy: 0.99893
+Anomalous Precision: 0.99537, Anomalous Recall: 0.99163, Anomalous F1 Score: 0.99350
+Training time for one epoch: 12.54 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99925  0.99959  0.99942  65366.0
+Anomalous      0.99537  0.99163  0.99350   5853.0
+accuracy       0.99893  0.99893  0.99893      NaN
+macro avg      0.99731  0.99561  0.99646  71219.0
+weighted avg   0.99893  0.99893  0.99893  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+New best model saved as: best_model/best_model_20250724_072857.pth 
+
+Epoch 4/50
+Train Loss: 0.00197, Train Accuracy: 0.99950
+Val Loss: 0.02374, Val Accuracy: 0.99902
+Anomalous Precision: 0.99811, Anomalous Recall: 0.98992, Anomalous F1 Score: 0.99400
+Training time for one epoch: 12.29 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99910  0.99983  0.99946  65366.0
+Anomalous      0.99811  0.98992  0.99400   5853.0
+accuracy       0.99902  0.99902  0.99902      NaN
+macro avg      0.99860  0.99488  0.99673  71219.0
+weighted avg   0.99902  0.99902  0.99902  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+New best model saved as: best_model/best_model_20250724_072857.pth 
+
+Epoch 5/50
+Train Loss: 0.00186, Train Accuracy: 0.99959
+Val Loss: 0.01835, Val Accuracy: 0.99906
+Anomalous Precision: 0.99521, Anomalous Recall: 0.99334, Anomalous F1 Score: 0.99427
+Training time for one epoch: 12.34 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99940  0.99957  0.99949  65366.0
+Anomalous      0.99521  0.99334  0.99427   5853.0
+accuracy       0.99906  0.99906  0.99906      NaN
+macro avg      0.99731  0.99645  0.99688  71219.0
+weighted avg   0.99906  0.99906  0.99906  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+New best model saved as: best_model/best_model_20250724_072857.pth 
+
+Epoch 6/50
+Train Loss: 0.00161, Train Accuracy: 0.99966
+Val Loss: 0.02371, Val Accuracy: 0.99913
+Anomalous Precision: 0.99931, Anomalous Recall: 0.99009, Anomalous F1 Score: 0.99468
+Training time for one epoch: 12.49 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99911  0.99994  0.99953  65366.0
+Anomalous      0.99931  0.99009  0.99468   5853.0
+accuracy       0.99913  0.99913  0.99913      NaN
+macro avg      0.99921  0.99501  0.99710  71219.0
+weighted avg   0.99913  0.99913  0.99913  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+New best model saved as: best_model/best_model_20250724_072857.pth 
+
+Epoch 7/50
+Train Loss: 0.00146, Train Accuracy: 0.99969
+Val Loss: 0.01937, Val Accuracy: 0.99923
+Anomalous Precision: 0.99794, Anomalous Recall: 0.99265, Anomalous F1 Score: 0.99529
+Training time for one epoch: 12.45 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99934  0.99982  0.99958  65366.0
+Anomalous      0.99794  0.99265  0.99529   5853.0
+accuracy       0.99923  0.99923  0.99923      NaN
+macro avg      0.99864  0.99623  0.99743  71219.0
+weighted avg   0.99923  0.99923  0.99923  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+New best model saved as: best_model/best_model_20250724_072857.pth 
+
+Epoch 8/50
+Train Loss: 0.00105, Train Accuracy: 0.99976
+Val Loss: 0.01351, Val Accuracy: 0.99924
+Anomalous Precision: 0.99743, Anomalous Recall: 0.99334, Anomalous F1 Score: 0.99538
+Training time for one epoch: 12.44 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99940  0.99977  0.99959  65366.0
+Anomalous      0.99743  0.99334  0.99538   5853.0
+accuracy       0.99924  0.99924  0.99924      NaN
+macro avg      0.99842  0.99655  0.99748  71219.0
+weighted avg   0.99924  0.99924  0.99924  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+New best model saved as: best_model/best_model_20250724_072857.pth 
+
+Epoch 9/50
+Train Loss: 0.00139, Train Accuracy: 0.99973
+Val Loss: 0.01143, Val Accuracy: 0.99928
+Anomalous Precision: 0.99743, Anomalous Recall: 0.99385, Anomalous F1 Score: 0.99564
+Training time for one epoch: 12.50 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99945  0.99977  0.99961  65366.0
+Anomalous      0.99743  0.99385  0.99564   5853.0
+accuracy       0.99928  0.99928  0.99928      NaN
+macro avg      0.99844  0.99681  0.99762  71219.0
+weighted avg   0.99928  0.99928  0.99928  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+New best model saved as: best_model/best_model_20250724_072857.pth 
+
+Epoch 10/50
+Train Loss: 0.00120, Train Accuracy: 0.99976
+Val Loss: 0.01054, Val Accuracy: 0.99938
+Anomalous Precision: 0.99794, Anomalous Recall: 0.99453, Anomalous F1 Score: 0.99623
+Training time for one epoch: 12.56 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99951  0.99982  0.99966  65366.0
+Anomalous      0.99794  0.99453  0.99623   5853.0
+accuracy       0.99938  0.99938  0.99938      NaN
+macro avg      0.99873  0.99717  0.99795  71219.0
+weighted avg   0.99938  0.99938  0.99938  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+New best model saved as: best_model/best_model_20250724_072857.pth 
+
+Epoch 11/50
+Train Loss: 0.00130, Train Accuracy: 0.99978
+Val Loss: 0.00763, Val Accuracy: 0.99958
+Anomalous Precision: 0.99863, Anomalous Recall: 0.99624, Anomalous F1 Score: 0.99743
+Training time for one epoch: 12.54 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99966  0.99988  0.99977  65366.0
+Anomalous      0.99863  0.99624  0.99743   5853.0
+accuracy       0.99958  0.99958  0.99958      NaN
+macro avg      0.99915  0.99806  0.99860  71219.0
+weighted avg   0.99958  0.99958  0.99958  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+New best model saved as: best_model/best_model_20250724_072857.pth 
+
+Epoch 12/50
+Train Loss: 0.00106, Train Accuracy: 0.99980
+Val Loss: 0.01523, Val Accuracy: 0.99933
+Anomalous Precision: 0.99794, Anomalous Recall: 0.99385, Anomalous F1 Score: 0.99589
+Training time for one epoch: 12.42 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99945  0.99982  0.99963  65366.0
+Anomalous      0.99794  0.99385  0.99589   5853.0
+accuracy       0.99933  0.99933  0.99933      NaN
+macro avg      0.99870  0.99683  0.99776  71219.0
+weighted avg   0.99933  0.99933  0.99933  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 13/50
+Train Loss: 0.00122, Train Accuracy: 0.99976
+Val Loss: 0.01766, Val Accuracy: 0.99927
+Anomalous Precision: 0.99948, Anomalous Recall: 0.99163, Anomalous F1 Score: 0.99554
+Training time for one epoch: 12.45 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99925  0.99995  0.99960  65366.0
+Anomalous      0.99948  0.99163  0.99554   5853.0
+accuracy       0.99927  0.99927  0.99927      NaN
+macro avg      0.99937  0.99579  0.99757  71219.0
+weighted avg   0.99927  0.99927  0.99927  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 14/50
+Train Loss: 0.00105, Train Accuracy: 0.99981
+Val Loss: 0.01982, Val Accuracy: 0.99933
+Anomalous Precision: 0.99897, Anomalous Recall: 0.99282, Anomalous F1 Score: 0.99589
+Training time for one epoch: 12.40 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99936  0.99991  0.99963  65366.0
+Anomalous      0.99897  0.99282  0.99589   5853.0
+accuracy       0.99933  0.99933  0.99933      NaN
+macro avg      0.99916  0.99637  0.99776  71219.0
+weighted avg   0.99933  0.99933  0.99933  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 15/50
+Train Loss: 0.00104, Train Accuracy: 0.99980
+Val Loss: 0.01384, Val Accuracy: 0.99933
+Anomalous Precision: 0.99897, Anomalous Recall: 0.99282, Anomalous F1 Score: 0.99589
+Training time for one epoch: 12.34 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99936  0.99991  0.99963  65366.0
+Anomalous      0.99897  0.99282  0.99589   5853.0
+accuracy       0.99933  0.99933  0.99933      NaN
+macro avg      0.99916  0.99637  0.99776  71219.0
+weighted avg   0.99933  0.99933  0.99933  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 16/50
+Train Loss: 0.00093, Train Accuracy: 0.99983
+Val Loss: 0.01031, Val Accuracy: 0.99945
+Anomalous Precision: 0.99760, Anomalous Recall: 0.99573, Anomalous F1 Score: 0.99667
+Training time for one epoch: 12.30 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99962  0.99979  0.99970  65366.0
+Anomalous      0.99760  0.99573  0.99667   5853.0
+accuracy       0.99945  0.99945  0.99945      NaN
+macro avg      0.99861  0.99776  0.99818  71219.0
+weighted avg   0.99945  0.99945  0.99945  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 17/50
+Train Loss: 0.00104, Train Accuracy: 0.99980
+Val Loss: 0.01115, Val Accuracy: 0.99941
+Anomalous Precision: 0.99846, Anomalous Recall: 0.99436, Anomalous F1 Score: 0.99640
+Training time for one epoch: 12.32 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99950  0.99986  0.99968  65366.0
+Anomalous      0.99846  0.99436  0.99640   5853.0
+accuracy       0.99941  0.99941  0.99941      NaN
+macro avg      0.99898  0.99711  0.99804  71219.0
+weighted avg   0.99941  0.99941  0.99941  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 18/50
+Train Loss: 0.00097, Train Accuracy: 0.99981
+Val Loss: 0.01388, Val Accuracy: 0.99942
+Anomalous Precision: 0.99811, Anomalous Recall: 0.99487, Anomalous F1 Score: 0.99649
+Training time for one epoch: 12.43 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99954  0.99983  0.99969  65366.0
+Anomalous      0.99811  0.99487  0.99649   5853.0
+accuracy       0.99942  0.99942  0.99942      NaN
+macro avg      0.99883  0.99735  0.99809  71219.0
+weighted avg   0.99942  0.99942  0.99942  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 19/50
+Train Loss: 0.00099, Train Accuracy: 0.99982
+Val Loss: 0.01364, Val Accuracy: 0.99948
+Anomalous Precision: 0.99726, Anomalous Recall: 0.99641, Anomalous F1 Score: 0.99684
+Training time for one epoch: 12.52 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99968  0.99976  0.99972  65366.0
+Anomalous      0.99726  0.99641  0.99684   5853.0
+accuracy       0.99948  0.99948  0.99948      NaN
+macro avg      0.99847  0.99808  0.99828  71219.0
+weighted avg   0.99948  0.99948  0.99948  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 20/50
+Train Loss: 0.00095, Train Accuracy: 0.99981
+Val Loss: 0.02066, Val Accuracy: 0.99926
+Anomalous Precision: 0.99897, Anomalous Recall: 0.99197, Anomalous F1 Score: 0.99546
+Training time for one epoch: 12.47 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99928  0.99991  0.99959  65366.0
+Anomalous      0.99897  0.99197  0.99546   5853.0
+accuracy       0.99926  0.99926  0.99926      NaN
+macro avg      0.99912  0.99594  0.99753  71219.0
+weighted avg   0.99926  0.99926  0.99925  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 21/50
+Train Loss: 0.00107, Train Accuracy: 0.99980
+Val Loss: 0.01228, Val Accuracy: 0.99935
+Anomalous Precision: 0.99675, Anomalous Recall: 0.99539, Anomalous F1 Score: 0.99607
+Training time for one epoch: 12.32 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99959  0.99971  0.99965  65366.0
+Anomalous      0.99675  0.99539  0.99607   5853.0
+accuracy       0.99935  0.99935  0.99935      NaN
+macro avg      0.99817  0.99755  0.99786  71219.0
+weighted avg   0.99935  0.99935  0.99935  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 22/50
+Train Loss: 0.00114, Train Accuracy: 0.99979
+Val Loss: 0.00746, Val Accuracy: 0.99923
+Anomalous Precision: 0.99319, Anomalous Recall: 0.99744, Anomalous F1 Score: 0.99531
+Training time for one epoch: 12.26 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99977  0.99939  0.99958  65366.0
+Anomalous      0.99319  0.99744  0.99531   5853.0
+accuracy       0.99923  0.99923  0.99923      NaN
+macro avg      0.99648  0.99841  0.99745  71219.0
+weighted avg   0.99923  0.99923  0.99923  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+New best model saved as: best_model/best_model_20250724_072857.pth 
+
+Epoch 23/50
+Train Loss: 0.00108, Train Accuracy: 0.99980
+Val Loss: 0.01137, Val Accuracy: 0.99954
+Anomalous Precision: 0.99880, Anomalous Recall: 0.99556, Anomalous F1 Score: 0.99718
+Training time for one epoch: 12.50 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99960  0.99989  0.99975  65366.0
+Anomalous      0.99880  0.99556  0.99718   5853.0
+accuracy       0.99954  0.99954  0.99954      NaN
+macro avg      0.99920  0.99773  0.99846  71219.0
+weighted avg   0.99954  0.99954  0.99954  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 24/50
+Train Loss: 0.00102, Train Accuracy: 0.99981
+Val Loss: 0.00679, Val Accuracy: 0.99949
+Anomalous Precision: 0.99760, Anomalous Recall: 0.99624, Anomalous F1 Score: 0.99692
+Training time for one epoch: 12.47 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99966  0.99979  0.99972  65366.0
+Anomalous      0.99760  0.99624  0.99692   5853.0
+accuracy       0.99949  0.99949  0.99949      NaN
+macro avg      0.99863  0.99801  0.99832  71219.0
+weighted avg   0.99949  0.99949  0.99949  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+New best model saved as: best_model/best_model_20250724_072857.pth 
+
+Epoch 25/50
+Train Loss: 0.00110, Train Accuracy: 0.99979
+Val Loss: 0.01099, Val Accuracy: 0.99930
+Anomalous Precision: 0.99471, Anomalous Recall: 0.99675, Anomalous F1 Score: 0.99573
+Training time for one epoch: 12.28 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99971  0.99953  0.99962  65366.0
+Anomalous      0.99471  0.99675  0.99573   5853.0
+accuracy       0.99930  0.99930  0.99930      NaN
+macro avg      0.99721  0.99814  0.99768  71219.0
+weighted avg   0.99930  0.99930  0.99930  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 26/50
+Train Loss: 0.00113, Train Accuracy: 0.99978
+Val Loss: 0.00890, Val Accuracy: 0.99958
+Anomalous Precision: 0.99949, Anomalous Recall: 0.99539, Anomalous F1 Score: 0.99743
+Training time for one epoch: 12.55 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99959  0.99995  0.99977  65366.0
+Anomalous      0.99949  0.99539  0.99743   5853.0
+accuracy       0.99958  0.99958  0.99958      NaN
+macro avg      0.99954  0.99767  0.99860  71219.0
+weighted avg   0.99958  0.99958  0.99958  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 27/50
+Train Loss: 0.00103, Train Accuracy: 0.99980
+Val Loss: 0.01129, Val Accuracy: 0.99945
+Anomalous Precision: 0.99743, Anomalous Recall: 0.99590, Anomalous F1 Score: 0.99667
+Training time for one epoch: 12.45 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99963  0.99977  0.99970  65366.0
+Anomalous      0.99743  0.99590  0.99667   5853.0
+accuracy       0.99945  0.99945  0.99945      NaN
+macro avg      0.99853  0.99784  0.99818  71219.0
+weighted avg   0.99945  0.99945  0.99945  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 28/50
+Train Loss: 0.00101, Train Accuracy: 0.99984
+Val Loss: 0.00534, Val Accuracy: 0.99912
+Anomalous Precision: 0.99068, Anomalous Recall: 0.99863, Anomalous F1 Score: 0.99464
+Training time for one epoch: 12.62 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99988  0.99916  0.99952  65366.0
+Anomalous      0.99068  0.99863  0.99464   5853.0
+accuracy       0.99912  0.99912  0.99912      NaN
+macro avg      0.99528  0.99890  0.99708  71219.0
+weighted avg   0.99912  0.99912  0.99912  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+New best model saved as: best_model/best_model_20250724_072857.pth 
+
+Epoch 29/50
+Train Loss: 0.00090, Train Accuracy: 0.99983
+Val Loss: 0.00845, Val Accuracy: 0.99958
+Anomalous Precision: 0.99829, Anomalous Recall: 0.99658, Anomalous F1 Score: 0.99744
+Training time for one epoch: 12.47 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99969  0.99985  0.99977  65366.0
+Anomalous      0.99829  0.99658  0.99744   5853.0
+accuracy       0.99958  0.99958  0.99958      NaN
+macro avg      0.99899  0.99821  0.99860  71219.0
+weighted avg   0.99958  0.99958  0.99958  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+New best model saved as: best_model/best_model_20250724_072857.pth 
+
+Epoch 30/50
+Train Loss: 0.00116, Train Accuracy: 0.99980
+Val Loss: 0.01142, Val Accuracy: 0.99956
+Anomalous Precision: 0.99914, Anomalous Recall: 0.99556, Anomalous F1 Score: 0.99735
+Training time for one epoch: 12.41 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99960  0.99992  0.99976  65366.0
+Anomalous      0.99914  0.99556  0.99735   5853.0
+accuracy       0.99956  0.99956  0.99956      NaN
+macro avg      0.99937  0.99774  0.99855  71219.0
+weighted avg   0.99956  0.99956  0.99956  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 31/50
+Train Loss: 0.00105, Train Accuracy: 0.99983
+Val Loss: 0.01090, Val Accuracy: 0.99951
+Anomalous Precision: 0.99948, Anomalous Recall: 0.99453, Anomalous F1 Score: 0.99700
+Training time for one epoch: 12.42 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99951  0.99995  0.99973  65366.0
+Anomalous      0.99948  0.99453  0.99700   5853.0
+accuracy       0.99951  0.99951  0.99951      NaN
+macro avg      0.99950  0.99724  0.99837  71219.0
+weighted avg   0.99951  0.99951  0.99951  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 32/50
+Train Loss: 0.00110, Train Accuracy: 0.99977
+Val Loss: 0.01706, Val Accuracy: 0.99885
+Anomalous Precision: 0.98799, Anomalous Recall: 0.99812, Anomalous F1 Score: 0.99303
+Training time for one epoch: 12.35 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99983  0.99891  0.99937  65366.0
+Anomalous      0.98799  0.99812  0.99303   5853.0
+accuracy       0.99885  0.99885  0.99885      NaN
+macro avg      0.99391  0.99852  0.99620  71219.0
+weighted avg   0.99886  0.99885  0.99885  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 33/50
+Train Loss: 0.00101, Train Accuracy: 0.99981
+Val Loss: 0.01372, Val Accuracy: 0.99954
+Anomalous Precision: 0.99914, Anomalous Recall: 0.99522, Anomalous F1 Score: 0.99718
+Training time for one epoch: 12.60 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99957  0.99992  0.99975  65366.0
+Anomalous      0.99914  0.99522  0.99718   5853.0
+accuracy       0.99954  0.99954  0.99954      NaN
+macro avg      0.99936  0.99757  0.99846  71219.0
+weighted avg   0.99954  0.99954  0.99954  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 34/50
+Train Loss: 0.00092, Train Accuracy: 0.99983
+Val Loss: 0.00915, Val Accuracy: 0.99949
+Anomalous Precision: 0.99778, Anomalous Recall: 0.99607, Anomalous F1 Score: 0.99692
+Training time for one epoch: 12.40 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99965  0.99980  0.99972  65366.0
+Anomalous      0.99778  0.99607  0.99692   5853.0
+accuracy       0.99949  0.99949  0.99949      NaN
+macro avg      0.99871  0.99794  0.99832  71219.0
+weighted avg   0.99949  0.99949  0.99949  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 35/50
+Train Loss: 0.00109, Train Accuracy: 0.99981
+Val Loss: 0.01307, Val Accuracy: 0.99941
+Anomalous Precision: 0.99794, Anomalous Recall: 0.99487, Anomalous F1 Score: 0.99641
+Training time for one epoch: 12.43 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99954  0.99982  0.99968  65366.0
+Anomalous      0.99794  0.99487  0.99641   5853.0
+accuracy       0.99941  0.99941  0.99941      NaN
+macro avg      0.99874  0.99735  0.99804  71219.0
+weighted avg   0.99941  0.99941  0.99941  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 36/50
+Train Loss: 0.00089, Train Accuracy: 0.99984
+Val Loss: 0.01003, Val Accuracy: 0.99940
+Anomalous Precision: 0.99573, Anomalous Recall: 0.99692, Anomalous F1 Score: 0.99633
+Training time for one epoch: 12.30 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99972  0.99962  0.99967  65366.0
+Anomalous      0.99573  0.99692  0.99633   5853.0
+accuracy       0.99940  0.99940  0.99940      NaN
+macro avg      0.99773  0.99827  0.99800  71219.0
+weighted avg   0.99940  0.99940  0.99940  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 37/50
+Train Loss: 0.00088, Train Accuracy: 0.99984
+Val Loss: 0.01252, Val Accuracy: 0.99954
+Anomalous Precision: 0.99914, Anomalous Recall: 0.99522, Anomalous F1 Score: 0.99718
+Training time for one epoch: 12.49 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99957  0.99992  0.99975  65366.0
+Anomalous      0.99914  0.99522  0.99718   5853.0
+accuracy       0.99954  0.99954  0.99954      NaN
+macro avg      0.99936  0.99757  0.99846  71219.0
+weighted avg   0.99954  0.99954  0.99954  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 38/50
+Train Loss: 0.00098, Train Accuracy: 0.99978
+Val Loss: 0.01553, Val Accuracy: 0.99954
+Anomalous Precision: 0.99846, Anomalous Recall: 0.99590, Anomalous F1 Score: 0.99718
+Training time for one epoch: 12.49 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99963  0.99986  0.99975  65366.0
+Anomalous      0.99846  0.99590  0.99718   5853.0
+accuracy       0.99954  0.99954  0.99954      NaN
+macro avg      0.99905  0.99788  0.99846  71219.0
+weighted avg   0.99954  0.99954  0.99954  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 39/50
+Train Loss: 0.00117, Train Accuracy: 0.99980
+Val Loss: 0.01217, Val Accuracy: 0.99955
+Anomalous Precision: 0.99931, Anomalous Recall: 0.99522, Anomalous F1 Score: 0.99726
+Training time for one epoch: 12.55 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99957  0.99994  0.99976  65366.0
+Anomalous      0.99931  0.99522  0.99726   5853.0
+accuracy       0.99955  0.99955  0.99955      NaN
+macro avg      0.99944  0.99758  0.99851  71219.0
+weighted avg   0.99955  0.99955  0.99955  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 40/50
+Train Loss: 0.00102, Train Accuracy: 0.99983
+Val Loss: 0.01376, Val Accuracy: 0.99940
+Anomalous Precision: 0.99828, Anomalous Recall: 0.99436, Anomalous F1 Score: 0.99632
+Training time for one epoch: 12.49 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99950  0.99985  0.99967  65366.0
+Anomalous      0.99828  0.99436  0.99632   5853.0
+accuracy       0.99940  0.99940  0.99940      NaN
+macro avg      0.99889  0.99710  0.99800  71219.0
+weighted avg   0.99940  0.99940  0.99940  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 41/50
+Train Loss: 0.00099, Train Accuracy: 0.99982
+Val Loss: 0.01459, Val Accuracy: 0.99949
+Anomalous Precision: 0.99812, Anomalous Recall: 0.99573, Anomalous F1 Score: 0.99692
+Training time for one epoch: 12.52 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99962  0.99983  0.99972  65366.0
+Anomalous      0.99812  0.99573  0.99692   5853.0
+accuracy       0.99949  0.99949  0.99949      NaN
+macro avg      0.99887  0.99778  0.99832  71219.0
+weighted avg   0.99949  0.99949  0.99949  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 42/50
+Train Loss: 0.00097, Train Accuracy: 0.99983
+Val Loss: 0.01132, Val Accuracy: 0.99958
+Anomalous Precision: 0.99897, Anomalous Recall: 0.99590, Anomalous F1 Score: 0.99743
+Training time for one epoch: 12.53 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99963  0.99991  0.99977  65366.0
+Anomalous      0.99897  0.99590  0.99743   5853.0
+accuracy       0.99958  0.99958  0.99958      NaN
+macro avg      0.99930  0.99790  0.99860  71219.0
+weighted avg   0.99958  0.99958  0.99958  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 43/50
+Train Loss: 0.00104, Train Accuracy: 0.99981
+Val Loss: 0.00986, Val Accuracy: 0.99959
+Anomalous Precision: 0.99846, Anomalous Recall: 0.99658, Anomalous F1 Score: 0.99752
+Training time for one epoch: 12.54 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99969  0.99986  0.99978  65366.0
+Anomalous      0.99846  0.99658  0.99752   5853.0
+accuracy       0.99959  0.99959  0.99959      NaN
+macro avg      0.99908  0.99822  0.99865  71219.0
+weighted avg   0.99959  0.99959  0.99959  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+New best model saved as: best_model/best_model_20250724_072857.pth 
+
+Epoch 44/50
+Train Loss: 0.00095, Train Accuracy: 0.99981
+Val Loss: 0.01246, Val Accuracy: 0.99941
+Anomalous Precision: 0.99863, Anomalous Recall: 0.99419, Anomalous F1 Score: 0.99640
+Training time for one epoch: 12.58 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99948  0.99988  0.99968  65366.0
+Anomalous      0.99863  0.99419  0.99640   5853.0
+accuracy       0.99941  0.99941  0.99941      NaN
+macro avg      0.99905  0.99703  0.99804  71219.0
+weighted avg   0.99941  0.99941  0.99941  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 45/50
+Train Loss: 0.00100, Train Accuracy: 0.99980
+Val Loss: 0.01032, Val Accuracy: 0.99961
+Anomalous Precision: 0.99846, Anomalous Recall: 0.99675, Anomalous F1 Score: 0.99761
+Training time for one epoch: 12.60 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99971  0.99986  0.99979  65366.0
+Anomalous      0.99846  0.99675  0.99761   5853.0
+accuracy       0.99961  0.99961  0.99961      NaN
+macro avg      0.99908  0.99831  0.99870  71219.0
+weighted avg   0.99961  0.99961  0.99961  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+New best model saved as: best_model/best_model_20250724_072857.pth 
+
+Epoch 46/50
+Train Loss: 0.00111, Train Accuracy: 0.99982
+Val Loss: 0.00972, Val Accuracy: 0.99945
+Anomalous Precision: 0.99675, Anomalous Recall: 0.99658, Anomalous F1 Score: 0.99667
+Training time for one epoch: 12.54 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99969  0.99971  0.99970  65366.0
+Anomalous      0.99675  0.99658  0.99667   5853.0
+accuracy       0.99945  0.99945  0.99945      NaN
+macro avg      0.99822  0.99815  0.99818  71219.0
+weighted avg   0.99945  0.99945  0.99945  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 47/50
+Train Loss: 0.00092, Train Accuracy: 0.99982
+Val Loss: 0.01329, Val Accuracy: 0.99949
+Anomalous Precision: 0.99863, Anomalous Recall: 0.99522, Anomalous F1 Score: 0.99692
+Training time for one epoch: 12.52 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99957  0.99988  0.99972  65366.0
+Anomalous      0.99863  0.99522  0.99692   5853.0
+accuracy       0.99949  0.99949  0.99949      NaN
+macro avg      0.99910  0.99755  0.99832  71219.0
+weighted avg   0.99949  0.99949  0.99949  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 48/50
+Train Loss: 0.00113, Train Accuracy: 0.99979
+Val Loss: 0.01266, Val Accuracy: 0.99951
+Anomalous Precision: 0.99914, Anomalous Recall: 0.99487, Anomalous F1 Score: 0.99700
+Training time for one epoch: 12.50 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99954  0.99992  0.99973  65366.0
+Anomalous      0.99914  0.99487  0.99700   5853.0
+accuracy       0.99951  0.99951  0.99951      NaN
+macro avg      0.99934  0.99740  0.99837  71219.0
+weighted avg   0.99951  0.99951  0.99951  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-04
+Epoch 49/50
+Train Loss: 0.00088, Train Accuracy: 0.99985
+Val Loss: 0.01564, Val Accuracy: 0.99941
+Anomalous Precision: 0.99846, Anomalous Recall: 0.99436, Anomalous F1 Score: 0.99640
+Training time for one epoch: 12.54 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99950  0.99986  0.99968  65366.0
+Anomalous      0.99846  0.99436  0.99640   5853.0
+accuracy       0.99941  0.99941  0.99941      NaN
+macro avg      0.99898  0.99711  0.99804  71219.0
+weighted avg   0.99941  0.99941  0.99941  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-05
+Epoch 50/50
+Train Loss: 0.00020, Train Accuracy: 0.99998
+Val Loss: 0.01983, Val Accuracy: 0.99949
+Anomalous Precision: 0.99897, Anomalous Recall: 0.99487, Anomalous F1 Score: 0.99692
+Training time for one epoch: 12.56 minutes
+The Memory initial allocated beform training: 122.05 MB
+Memory Used for training in this epoch: 153.88 MB
+
+
+Classification Report:
+
+             precision   recall f1-score  support
+Normal         0.99954  0.99991  0.99972  65366.0
+Anomalous      0.99897  0.99487  0.99692   5853.0
+accuracy       0.99949  0.99949  0.99949      NaN
+macro avg      0.99926  0.99739  0.99832  71219.0
+weighted avg   0.99949  0.99949  0.99949  71219.0
+------------ END of Epoch --------------
+
+Learning Rate: 5.0e-05
+Average Training Time per Epoch: 12.466837723175683 min
+Peak GPU Memoryy Allocated: 1341.60 MB
+
+Ablation Study Completed
+Saved CSV: ablation_k_results.csv
+Saved Plot: ablation_plot_macro_f1_acc.png
+Results Summary:
+ k  macro_f1  test_acc
+32   0.99888   0.99966
+
+End of Ablation Study
